@@ -1,0 +1,7 @@
+method,config,stage,count,recentWeeks,map5_cohort_1150,users,padded_slots,users_padded,fit_s,score_s,diagnostics,selected,on_final_search_path
+popularity,1,1,views,0,0.263652,1150,0,0,0.01,0.75,{},0,1
+popularity,2,1,views,4,0.248638,1150,0,0,0.00,0.61,{},0,1
+popularity,3,1,views,2,0.248638,1150,0,0,0.00,0.62,{},0,1
+popularity,4,1,viewers,0,0.235507,1150,0,0,0.01,0.74,{},0,1
+popularity,5,1,viewers,4,0.265238,1150,0,0,0.00,0.61,{},1,1
+popularity,6,1,viewers,2,0.265238,1150,0,0,0.00,0.62,{},0,1

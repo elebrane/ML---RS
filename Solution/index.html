@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>sweet.tv TV Programme Recommender — LLM4Rec Exam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <noscript>
+    <p class="load-error">JavaScript required — please enable scripts for this directory and reload.</p>
+  </noscript>
+
+  <header class="site-header">
+    <h1>sweet.tv — TV Programme Recommender</h1>
+    <p class="subtitle">LLM4Rec final exam (AVITO cohort): join the view log to the labelled broadcast schedule, fit four course methods on weeks 11–20,
+      compare them by MAP@5 on weeks 21–30, then refit on weeks 11–30 and predict five programmes per test user for weeks 31–42.</p>
+    <p class="note">Every method shares one protocol: the same candidate pool (programmes that air in the target window), the same repeat rule
+      (already-watched programmes may be recommended), the same fallback (popularity) and the same evaluation cohort.</p>
+  </header>
+
+  <main>
+    <p id="status" class="status" role="status" aria-live="polite">Loading…</p>
+    <p id="tf-status" class="status-line" role="status" aria-live="polite">Loading TensorFlow.js…</p>
+
+    <nav class="tabs" role="tablist" aria-label="Application sections">
+      <button class="tab-button is-active" type="button" role="tab" data-tab="data" aria-selected="true">1 · Data &amp; protocol</button>
+      <button class="tab-button" type="button" role="tab" data-tab="popularity" aria-selected="false">2 · Popularity baseline</button>
+      <button class="tab-button" type="button" role="tab" data-tab="content" aria-selected="false">3 · Content-based</button>
+      <button class="tab-button" type="button" role="tab" data-tab="rules" aria-selected="false">4 · Association rules</button>
+      <button class="tab-button" type="button" role="tab" data-tab="mf" aria-selected="false">5 · Matrix factorization</button>
+      <button class="tab-button" type="button" role="tab" data-tab="ppr" aria-selected="false">6 · Personalized PageRank</button>
+      <button class="tab-button" type="button" role="tab" data-tab="summary" aria-selected="false">7 · Summary</button>
+    </nav>
+
+    <section id="panel-data" class="tab-panel" role="tabpanel"></section>
+    <section id="panel-popularity" class="tab-panel" role="tabpanel" hidden></section>
+    <section id="panel-content" class="tab-panel" role="tabpanel" hidden></section>
+    <section id="panel-rules" class="tab-panel" role="tabpanel" hidden></section>
+    <section id="panel-mf" class="tab-panel" role="tabpanel" hidden></section>
+    <section id="panel-ppr" class="tab-panel" role="tabpanel" hidden></section>
+    <section id="panel-summary" class="tab-panel" role="tabpanel" hidden></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Data: Kaggle community competition “sweet.tv — TV program recommender” (dataset11-30.csv, export_arh_*.csv). Methods follow course weeks 2, 4, 5 and 6.</p>
+    <p>Run <code>python3 server.py</code> in this folder and open <code>http://127.0.0.1:8000/</code> so saved results load and exports can be written to <code>results/browser/</code>.</p>
+  </footer>
+
+  <!-- TensorFlow.js: same version as the week 5 / week 6 homeworks -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
+  <!-- optional WASM backend (choose it with ?backend=wasm when WebGL is unavailable or slow) -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm@4.22.0/dist/tf-backend-wasm.min.js"></script>
+  <!-- d3 v7.9.0 for the graph view, vendored exactly as in week 6 -->
+  <script src="vendor/d3.min.js"></script>
+  <script src="data/exam_data.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/popularity.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/rules.js"></script>
+  <script src="js/mf.js"></script>
+  <script src="js/ppr.js"></script>
+  <script src="js/mf_tf.js"></script>
+  <script src="js/ppr_tf.js"></script>
+  <script src="js/methods.js"></script>
+  <script src="js/selfchecks.js"></script>
+  <script src="js/graphview.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+method,title,role,configs_tried,selected_settings,valid_map5_cohort_1150,valid_map5_all_4030,cohort_users,valid_padded_slots,test_padded_slots,valid_runtime_s,test_runtime_s,refit_map_abs_diff
+popularity,Popularity baseline,reference,6,"{""count"":""viewers"",""recentWeeks"":4}",0.265238,0.239822,1150,0,0,0.62,1.46,0.0e+0
+content,Content-based filtering,method,36,"{""meta"":1,""people"":0.5,""channel"":1,""time"":1,""profile"":""linear""}",0.255261,0.228557,1150,50,20,2.17,4.64,0.0e+0
+rules,Association rules,method,144,"{""mode"":""next-week"",""minSupport"":0.001,""minConfidence"":0.1,""agg"":""max"",""lookback"":4}",0.317197,0.285429,1150,267,362,0.15,0.33,0.0e+0
+mf,"Matrix factorization (TensorFlow.js, implicit)",method,12,"{""factors"":64,""lambda"":50,""alpha"":1,""signal"":""count"",""lr"":0.05,""seed"":42,""epochs"":100,""batchSize"":1024}",0.316484,0.290499,1150,50,20,133.15,59.39,0.0e+0
+ppr,Personalized PageRank (TensorFlow.js),method,15,"{""alpha"":0.7,""weight"":""count"",""tol"":0.000001,""maxIter"":500}",0.359528,0.323687,1150,50,20,55.08,97.12,0.0e+0
+mf_als,"Reference implementation: implicit MF by ALS (plain JS, float64)",reference implementation,50,"{""factors"":64,""lambda"":50,""alpha"":1,""signal"":""hours"",""confidence"":""linear"",""seed"":42,""iterations"":20}",0.316168,0.289042,1150,50,20,24.37,41.49,0.0e+0
+ppr_js,"Reference implementation: PPR by sparse power iteration (plain JS, float64)",reference implementation,15,"{""alpha"":0.7,""weight"":""count"",""tol"":0.000001,""maxIter"":500}",0.359528,0.323687,1150,50,20,16.08,63.85,0.0e+0
+own,Reference: own viewing history,reference,1,{},0.355249,0.317390,1150,116,74,0.02,0.05,0.0e+0

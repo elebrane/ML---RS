@@ -1,0 +1,90 @@
+{
+  "exportedAt": "2026-10-22T23:57:53.765Z",
+  "page": "http://localhost:8000/",
+  "tfjs": "4.22.0",
+  "backend": "webgl",
+  "dataBuilt": "2026-10-22 17:47:22",
+  "pprSettingsOnScreen": {
+    "alpha": 0.7,
+    "weight": "count",
+    "tol": 0.000001,
+    "maxIter": 500
+  },
+  "pprSettingsSelectedOnValidation": {
+    "alpha": 0.7,
+    "weight": "count",
+    "tol": 0.000001,
+    "maxIter": 500
+  },
+  "graphView": {
+    "a": "15942687135322962396",
+    "b": "6351697982861523430",
+    "colorBy": "kind",
+    "scoreSeed": "A",
+    "edgeWidth": "weight",
+    "perUser": 12,
+    "maxNodes": 60,
+    "pprSettingsUsed": {
+      "alpha": 0.7,
+      "weight": "count",
+      "tol": 0.000001,
+      "maxIter": 500
+    },
+    "scoresFrom": "TF.js (webgl)",
+    "convergence": {
+      "runs": 2,
+      "notConverged": 0,
+      "iterSum": 82,
+      "maxResidual": 9.518902288618847e-7,
+      "batches": 1
+    },
+    "sharedProgrammesDrawn": 0,
+    "omittedUsers": 4381
+  },
+  "examplePair": {
+    "heavy": "15942687135322962396",
+    "heavyFullViews": 179,
+    "light": "6351697982861523430",
+    "lightFullViews": 17,
+    "choice": "default: P90 / P10 of training full views"
+  },
+  "validationRunThisSession": {
+    "opts": {
+      "alpha": 0.7,
+      "weight": "count",
+      "tol": 0.000001,
+      "maxIter": 500
+    },
+    "map": 0.3595275362318836,
+    "users": 1150,
+    "padded": 50,
+    "usersPadded": 10,
+    "fitS": 2.8514000000953676,
+    "scoreS": 0.4422999999523163,
+    "stats": {
+      "users": 4737,
+      "items": 2500,
+      "edges": 116194,
+      "runs": 1140,
+      "notConverged": 0,
+      "meanIterations": 42,
+      "maxResidual": 8.236397093241976e-7
+    },
+    "at": "2026-10-22T23:56:33.191Z"
+  },
+  "savedBatchRun": {
+    "method": "ppr",
+    "title": "Personalized PageRank (TensorFlow.js)",
+    "role": "method",
+    "configs_tried": "15",
+    "selected_settings": "{\"alpha\":0.7,\"weight\":\"count\",\"tol\":0.000001,\"maxIter\":500}",
+    "valid_map5_cohort_1150": "0.359528",
+    "valid_map5_all_4030": "0.323687",
+    "cohort_users": "1150",
+    "valid_padded_slots": "50",
+    "test_padded_slots": "20",
+    "valid_runtime_s": "55.08",
+    "test_runtime_s": "97.12",
+    "refit_map_abs_diff": "0.0e+0"
+  }
+}

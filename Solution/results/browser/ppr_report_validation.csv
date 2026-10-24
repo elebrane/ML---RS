@@ -1,0 +1,3 @@
+source,settings,map5_cohort,users,padded_slots,fit_s,score_s,diagnostics,backend
+this session,"{""alpha"":0.7,""weight"":""count"",""tol"":0.000001,""maxIter"":500}",0.359528,1150,50,2.85,0.44,"{""users"":4737,""items"":2500,""edges"":116194,""runs"":1140,""notConverged"":0,""meanIterations"":42,""maxResidual"":8.236397093241976e-7}",webgl
+saved batch run (results/summary.csv),"{""alpha"":0.7,""weight"":""count"",""tol"":0.000001,""maxIter"":500}",0.359528,1150,50,,55.08,,wasm (Node)

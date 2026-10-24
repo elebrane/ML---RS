@@ -1,0 +1,16 @@
+source,stage,settings,map5_cohort,padded_slots,seconds,selected
+this session,1,"{""alpha"":0.15,""weight"":""binary"",""tol"":0.000001,""maxIter"":500}",0.271214,50,1.05,0
+this session,1,"{""alpha"":0.15,""weight"":""log"",""tol"":0.000001,""maxIter"":500}",0.355693,50,0.99,0
+this session,1,"{""alpha"":0.15,""weight"":""count"",""tol"":0.000001,""maxIter"":500}",0.356351,50,0.97,0
+this session,1,"{""alpha"":0.3,""weight"":""binary"",""tol"":0.000001,""maxIter"":500}",0.270933,50,1.22,0
+this session,1,"{""alpha"":0.3,""weight"":""log"",""tol"":0.000001,""maxIter"":500}",0.355368,50,1.31,0
+this session,1,"{""alpha"":0.3,""weight"":""count"",""tol"":0.000001,""maxIter"":500}",0.356432,50,1.23,0
+this session,1,"{""alpha"":0.5,""weight"":""binary"",""tol"":0.000001,""maxIter"":500}",0.270206,50,1.86,0
+this session,1,"{""alpha"":0.5,""weight"":""log"",""tol"":0.000001,""maxIter"":500}",0.357403,50,1.72,0
+this session,1,"{""alpha"":0.5,""weight"":""count"",""tol"":0.000001,""maxIter"":500}",0.358739,50,1.74,0
+this session,1,"{""alpha"":0.7,""weight"":""binary"",""tol"":0.000001,""maxIter"":500}",0.269084,50,3.12,0
+this session,1,"{""alpha"":0.7,""weight"":""log"",""tol"":0.000001,""maxIter"":500}",0.352414,50,2.98,0
+this session,1,"{""alpha"":0.7,""weight"":""count"",""tol"":0.000001,""maxIter"":500}",0.359528,50,3.00,1
+this session,1,"{""alpha"":0.85,""weight"":""binary"",""tol"":0.000001,""maxIter"":500}",0.264110,50,6.23,0
+this session,1,"{""alpha"":0.85,""weight"":""log"",""tol"":0.000001,""maxIter"":500}",0.328362,50,6.31,0
+this session,1,"{""alpha"":0.85,""weight"":""count"",""tol"":0.000001,""maxIter"":500}",0.333426,50,6.44,0

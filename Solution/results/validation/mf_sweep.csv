@@ -1,0 +1,13 @@
+method,config,stage,factors,lambda,alpha,signal,lr,epochs,batchSize,seed,map5_cohort_1150,users,padded_slots,users_padded,fit_s,score_s,diagnostics,selected,on_final_search_path
+mf,1,1,32,10,1,hours,0.05,100,8192,42,0.255371,1150,50,10,71.85,0.67,"{""users"":4737,""items"":2500,""positives"":116194,""finalLoss"":170876.9,""factorNorm"":33.0563}",0,1
+mf,2,1,32,10,5,hours,0.05,100,8192,42,0.200803,1150,50,10,71.70,0.67,"{""users"":4737,""items"":2500,""positives"":116194,""finalLoss"":378970.4,""factorNorm"":42.9205}",0,1
+mf,3,1,32,50,1,hours,0.05,100,8192,42,0.314006,1150,50,10,71.86,0.66,"{""users"":4737,""items"":2500,""positives"":116194,""finalLoss"":231120.8,""factorNorm"":21.2479}",0,1
+mf,4,1,32,50,5,hours,0.05,100,8192,42,0.252470,1150,50,10,70.22,0.72,"{""users"":4737,""items"":2500,""positives"":116194,""finalLoss"":512395,""factorNorm"":36.8641}",0,1
+mf,5,1,32,100,1,hours,0.05,100,8192,42,0.288983,1150,50,10,70.62,0.71,"{""users"":4737,""items"":2500,""positives"":116194,""finalLoss"":262082.4,""factorNorm"":15.0756}",0,1
+mf,6,1,32,100,5,hours,0.05,100,8192,42,0.294391,1150,50,10,71.01,0.71,"{""users"":4737,""items"":2500,""positives"":116194,""finalLoss"":618024.4,""factorNorm"":28.0436}",0,1
+mf,7,2,32,50,1,count,0.05,100,8192,42,0.314861,1150,50,10,71.74,0.67,"{""users"":4737,""items"":2500,""positives"":116194,""finalLoss"":209218.3,""factorNorm"":21.561}",0,1
+mf,8,3,16,50,1,count,0.05,100,8192,42,0.312548,1150,50,10,40.61,0.58,"{""users"":4737,""items"":2500,""positives"":116194,""finalLoss"":209822.5,""factorNorm"":20.8379}",0,1
+mf,9,3,64,50,1,count,0.05,100,8192,42,0.315965,1150,50,10,133.35,0.69,"{""users"":4737,""items"":2500,""positives"":116194,""finalLoss"":209133.6,""factorNorm"":21.8406}",0,1
+mf,10,4,64,50,1,count,0.05,20,1024,42,0.291846,1150,50,10,26.85,0.68,"{""users"":4737,""items"":2500,""positives"":116194,""batchesPerEpoch"":5,""adamUpdates"":100,""finalLoss"":244352.5,""factorNorm"":16.713}",0,1
+mf,11,4,64,50,1,count,0.05,100,1024,42,0.316484,1150,50,10,132.47,0.68,"{""users"":4737,""items"":2500,""positives"":116194,""batchesPerEpoch"":5,""adamUpdates"":500,""finalLoss"":216916.3,""factorNorm"":20.93}",1,1
+mf,12,4,64,50,1,count,0.05,20,256,42,0.301243,1150,50,10,27.45,0.68,"{""users"":4737,""items"":2500,""positives"":116194,""batchesPerEpoch"":19,""adamUpdates"":380,""finalLoss"":274303.4,""factorNorm"":16.1433}",0,1

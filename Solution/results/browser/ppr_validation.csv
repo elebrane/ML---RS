@@ -1,0 +1,2 @@
+method,settings,map5_cohort,users,padded_slots,fit_s,score_s,diagnostics,backend,run_at
+ppr,"{""alpha"":0.7,""weight"":""count"",""tol"":0.000001,""maxIter"":500}",0.359528,1150,50,2.85,0.44,"{""users"":4737,""items"":2500,""edges"":116194,""runs"":1140,""notConverged"":0,""meanIterations"":42,""maxResidual"":8.236397093241976e-7}",webgl,2026-10-22T23:56:33.191Z

@@ -1,0 +1,7 @@
+node_modules/
+cache/
+__pycache__/
+.DS_Store
+Solution/data/items.csv
+Solution/results/validation/cache_*.json
+Solution/results/analysis/cache_*.json

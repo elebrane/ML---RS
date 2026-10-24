@@ -1,0 +1,13 @@
+{
+  "name": "sweettv-exam-solution",
+  "private": true,
+  "description": "sweet.tv TV programme recommender — LLM4Rec exam. Same TensorFlow.js version as the week 5/6 homeworks.",
+  "scripts": {
+    "test": "node tests/test_methods.js --real",
+    "experiments": "node tools/run_experiments.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "4.22.0",
+    "@tensorflow/tfjs-backend-wasm": "4.22.0"
+  }
+}

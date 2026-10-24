@@ -1,0 +1,4 @@
+file,rows,labelled_rows,unlabelled_rows,labelled_share,labelled_hours,unlabelled_hours,distinct_shows,distinct_channels_labelled,categories
+export_arh_11-20-final.csv,1074235,115613,958622,0.1076,106244.1,559181.6,5847,177,8
+export_arh_21-30-final.csv,1074394,121505,952889,0.1131,114053.0,560817.5,6363,188,8
+export_arh_31-42-final.csv,1295378,144774,1150604,0.1118,135767.1,678572.1,6636,191,8

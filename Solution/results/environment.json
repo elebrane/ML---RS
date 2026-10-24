@@ -1,0 +1,16 @@
+{
+  "node": "v22.23.4",
+  "tfjs": "4.22.0",
+  "tfBackend": "wasm",
+  "platform": "linux arm64",
+  "cpus": 4,
+  "memGB": 3.8,
+  "dataBuilt": "2026-10-22 17:47:22",
+  "lastRun": "2026-10-23T00:58:47.768Z",
+  "exampleUsers": {
+    "heavy": "15942687135322962396",
+    "heavyTrainFullViews": 179,
+    "light": "6351697982861523430",
+    "lightTrainFullViews": 17
+  }
+}

@@ -1,0 +1,36 @@
+metric,value
+rows,5821987
+distinct_users,4914
+distinct_channels,202
+first_start,2020-03-09 00:00:02
+last_start,2020-07-26 23:58:42
+last_stop,2020-07-26 23:59:58
+min_week,11
+max_week,30
+rows_duration_equals_stop_minus_start,5821870
+rows_duration_nonpositive,0
+rows_stop_before_start,0
+total_view_hours,2394226.5
+load_seconds,11.1
+duration_p5_s,69.0
+duration_p25_s,133.0
+duration_p50_s,396.0
+duration_p75_s,1452.0
+duration_p90_s,3911.0
+duration_p95_s,6344.0
+duration_p99_s,14079.139999999665
+duration_max_s,342145
+share_views_lt_60s,0.0
+share_time_in_views_ge_60s,1.0
+share_views_lt_300s,0.4397
+share_time_in_views_ge_300s,0.959
+share_views_lt_600s,0.5839
+share_time_in_views_ge_600s,0.9172
+share_views_lt_1800s,0.7866
+share_time_in_views_ge_1800s,0.7699
+share_views_lt_3600s,0.8895
+share_time_in_views_ge_3600s,0.5921
+share_views_lt_14400s,0.9904
+share_time_in_views_ge_14400s,0.1484
+share_views_lt_86400s,1.0
+share_time_in_views_ge_86400s,0.0007

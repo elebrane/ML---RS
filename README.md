@@ -11,5 +11,8 @@ Individual exam solution by Vladislav Kutranov. Kaggle community competition “
 - **Code, protocol, results, reproduction:** [`Solution/readme.md`](Solution/readme.md).
 - **All numbers:** `Solution/results/summary.csv` (validation), `Solution/results/kaggle/kaggle_scores.csv` (Kaggle),
   `Solution/results/analysis/` (list profile, per-user AP@5).
-- **Data:** the raw competition files are not included — put them into `Kaggle input/sweettv-tv-program-recommender/` to rerun the
-  pipeline (`Solution/readme.md` §2). `Solution/data/exam_data.js` is the packed derivative the page loads.
+- **Kaggle input:** `Kaggle input/` — competition page texts, the submission template, and sizes + MD5 checksums of the four raw
+  data files (not stored here: download them from Kaggle into `Kaggle input/sweettv-tv-program-recommender/`, then `Solution/readme.md` §2).
+  `Solution/data/exam_data.js` is the packed derivative the page loads.
+- **Kaggle output:** `Kaggle output/` — the two files actually uploaded to Kaggle (`submission_ppr.csv` final, `submission_mf.csv`) and
+  the screenshot of the returned scores.

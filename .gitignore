@@ -5,3 +5,5 @@ __pycache__/
 Solution/data/items.csv
 Solution/results/validation/cache_*.json
 Solution/results/analysis/cache_*.json
+Kaggle input/sweettv-tv-program-recommender/dataset11-30.csv
+Kaggle input/sweettv-tv-program-recommender/export_arh_*.csv

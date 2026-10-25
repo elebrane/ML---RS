@@ -2,6 +2,8 @@
 
 Individual exam solution by Vladislav Kutranov. Kaggle community competition “sweet.tv — TV program recommender”, metric MAP@5.
 
+- **Report:** [`Report/vladislav_kutranov_exam_report.pdf`](Report/vladislav_kutranov_exam_report.pdf).
+- **Live application:** https://elebrane.github.io/ML---RS/ (GitHub Pages; everything is computed in the visitor's browser).
 - **Application (interface with the solution):** `Solution/index.html` — open it on GitHub Pages (this repository's Pages site opens it
   directly) or locally with `python3 Solution/server.py`. Tabs: data & protocol, popularity baseline, content-based, association rules,
   matrix factorization (TensorFlow.js), Personalized PageRank (TensorFlow.js), summary. Every method tab ends with a step-by-step

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="470" viewBox="0 0 1240 470" font-family="Arial, Liberation Sans, sans-serif">
+<rect x="0" y="0" width="1240" height="470" fill="#ffffff"/>
+<text x="310.0" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">A — heavy viewer (179 full views of 17 programmes), restart at A</text>
+<text x="160.0" y="60" text-anchor="middle" font-size="13" fill="#4b5563">users</text>
+<text x="330.0" y="60" text-anchor="middle" font-size="13" fill="#4b5563">PPR Top-5 programmes</text>
+<line x1="160.0" y1="166" x2="330.0" y2="94" stroke="#9ca3af" stroke-width="10.78" stroke-opacity="0.45"/>
+<line x1="160.0" y1="166" x2="330.0" y2="166" stroke="#9ca3af" stroke-width="9.53" stroke-opacity="0.45"/>
+<line x1="160.0" y1="166" x2="330.0" y2="238" stroke="#9ca3af" stroke-width="6.78" stroke-opacity="0.45"/>
+<line x1="160.0" y1="166" x2="330.0" y2="310" stroke="#9ca3af" stroke-width="10.42" stroke-opacity="0.45"/>
+<line x1="160.0" y1="166" x2="330.0" y2="382" stroke="#9ca3af" stroke-width="6.96" stroke-opacity="0.45"/>
+<line x1="160.0" y1="238" x2="330.0" y2="94" stroke="#9ca3af" stroke-width="9.65" stroke-opacity="0.45"/>
+<line x1="160.0" y1="238" x2="330.0" y2="166" stroke="#9ca3af" stroke-width="8.58" stroke-opacity="0.45"/>
+<line x1="160.0" y1="238" x2="330.0" y2="238" stroke="#9ca3af" stroke-width="4.40" stroke-opacity="0.45"/>
+<line x1="160.0" y1="238" x2="330.0" y2="310" stroke="#9ca3af" stroke-width="9.44" stroke-opacity="0.45"/>
+<line x1="160.0" y1="238" x2="330.0" y2="382" stroke="#9ca3af" stroke-width="5.87" stroke-opacity="0.45"/>
+<line x1="160.0" y1="310" x2="330.0" y2="94" stroke="#9ca3af" stroke-width="9.18" stroke-opacity="0.45"/>
+<line x1="160.0" y1="310" x2="330.0" y2="166" stroke="#9ca3af" stroke-width="8.06" stroke-opacity="0.45"/>
+<line x1="160.0" y1="310" x2="330.0" y2="238" stroke="#9ca3af" stroke-width="5.37" stroke-opacity="0.45"/>
+<line x1="160.0" y1="310" x2="330.0" y2="310" stroke="#9ca3af" stroke-width="9.15" stroke-opacity="0.45"/>
+<line x1="160.0" y1="310" x2="330.0" y2="382" stroke="#9ca3af" stroke-width="5.87" stroke-opacity="0.45"/>
+<line x1="160.0" y1="382" x2="330.0" y2="94" stroke="#9ca3af" stroke-width="10.00" stroke-opacity="0.45"/>
+<line x1="160.0" y1="382" x2="330.0" y2="166" stroke="#9ca3af" stroke-width="7.96" stroke-opacity="0.45"/>
+<line x1="160.0" y1="382" x2="330.0" y2="238" stroke="#9ca3af" stroke-width="4.06" stroke-opacity="0.45"/>
+<line x1="160.0" y1="382" x2="330.0" y2="310" stroke="#9ca3af" stroke-width="8.61" stroke-opacity="0.45"/>
+<line x1="160.0" y1="382" x2="330.0" y2="382" stroke="#9ca3af" stroke-width="6.15" stroke-opacity="0.45"/>
+<line x1="160.0" y1="94" x2="330.0" y2="94" stroke="#1d4ed8" stroke-width="8.75" stroke-opacity="0.9"/>
+<text x="265.4" y="89.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1d4ed8" stroke="#ffffff" stroke-width="3" paint-order="stroke">58</text>
+<line x1="160.0" y1="94" x2="330.0" y2="166" stroke="#1d4ed8" stroke-width="8.54" stroke-opacity="0.9"/>
+<text x="265.4" y="133.6" text-anchor="middle" font-size="12" font-weight="bold" fill="#1d4ed8" stroke="#ffffff" stroke-width="3" paint-order="stroke">52</text>
+<line x1="160.0" y1="94" x2="330.0" y2="238" stroke="#1d4ed8" stroke-width="6.49" stroke-opacity="0.9"/>
+<text x="265.4" y="178.3" text-anchor="middle" font-size="12" font-weight="bold" fill="#1d4ed8" stroke="#ffffff" stroke-width="3" paint-order="stroke">17</text>
+<line x1="160.0" y1="94" x2="330.0" y2="310" stroke="#1d4ed8" stroke-width="3.63" stroke-opacity="0.9"/>
+<text x="265.4" y="222.9" text-anchor="middle" font-size="12" font-weight="bold" fill="#1d4ed8" stroke="#ffffff" stroke-width="3" paint-order="stroke">3</text>
+<line x1="160.0" y1="94" x2="330.0" y2="382" stroke="#1d4ed8" stroke-width="6.15" stroke-opacity="0.9"/>
+<text x="265.4" y="267.6" text-anchor="middle" font-size="12" font-weight="bold" fill="#1d4ed8" stroke="#ffffff" stroke-width="3" paint-order="stroke">14</text>
+<circle cx="160.0" cy="94" r="17" fill="#1d4ed8"/>
+<text x="160.0" y="99" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">A</text>
+<text x="138.0" y="92" text-anchor="end" font-size="12" fill="#111827">seed</text>
+<text x="138.0" y="107" text-anchor="end" font-size="11" fill="#6b7280">PPR 0.3007</text>
+<circle cx="160.0" cy="166" r="11" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<text x="138.0" y="164" text-anchor="end" font-size="12" fill="#111827">other user: 484 progr.</text>
+<text x="138.0" y="179" text-anchor="end" font-size="11" fill="#6b7280">PPR 0.0021</text>
+<circle cx="160.0" cy="238" r="11" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<text x="138.0" y="236" text-anchor="end" font-size="12" fill="#111827">other user: 446 progr.</text>
+<text x="138.0" y="251" text-anchor="end" font-size="11" fill="#6b7280">PPR 0.0011</text>
+<circle cx="160.0" cy="310" r="11" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<text x="138.0" y="308" text-anchor="end" font-size="12" fill="#111827">other user: 256 progr.</text>
+<text x="138.0" y="323" text-anchor="end" font-size="11" fill="#6b7280">PPR 0.0010</text>
+<circle cx="160.0" cy="382" r="11" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<text x="138.0" y="380" text-anchor="end" font-size="12" fill="#111827">other user: 131 progr.</text>
+<text x="138.0" y="395" text-anchor="end" font-size="11" fill="#6b7280">PPR 0.0008</text>
+<circle cx="330.0" cy="94" r="20.0" fill="#fde68a" stroke="#16a34a" stroke-width="4"/>
+<text x="358.0" y="92" text-anchor="start" font-size="12.5" font-weight="bold" fill="#111827">#1 &#x27;ТСН. Неделя&#x27;</text>
+<text x="358.0" y="107" text-anchor="start" font-size="11" fill="#6b7280">2400480 · Инфо · PPR 0.1030</text>
+<circle cx="330.0" cy="166" r="18.0" fill="#fde68a" stroke="#16a34a" stroke-width="4"/>
+<text x="356.0" y="164" text-anchor="start" font-size="12.5" font-weight="bold" fill="#111827">#2 &#x27;Завтрак с 1+1&#x27;. Информационно-…</text>
+<text x="356.0" y="179" text-anchor="start" font-size="11" fill="#6b7280">20088 · Развлечения · PPR 0.0742</text>
+<circle cx="330.0" cy="238" r="13.1" fill="#fde68a" stroke="#16a34a" stroke-width="4"/>
+<text x="351.1" y="236" text-anchor="start" font-size="12.5" font-weight="bold" fill="#111827">#3 Ток-шоу &#x27;Говорит Украина&#x27;</text>
+<text x="351.1" y="251" text-anchor="start" font-size="11" fill="#6b7280">500281 · Развлечения · PPR 0.0230</text>
+<circle cx="330.0" cy="310" r="12.9" fill="#fde68a" stroke="#374151" stroke-width="1.5"/>
+<text x="350.9" y="308" text-anchor="start" font-size="12.5" font-weight="bold" fill="#111827">#4 Факты. День</text>
+<text x="350.9" y="323" text-anchor="start" font-size="11" fill="#6b7280">240081 · Инфо · PPR 0.0211</text>
+<circle cx="330.0" cy="382" r="12.5" fill="#fde68a" stroke="#16a34a" stroke-width="4"/>
+<text x="350.5" y="380" text-anchor="start" font-size="12.5" font-weight="bold" fill="#111827">#5 &#x27;Один за всех&#x27;</text>
+<text x="350.5" y="395" text-anchor="start" font-size="11" fill="#6b7280">500331 · Развлечения · PPR 0.0182</text>
+<text x="930.0" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#be185d">B — light viewer (17 full views of 15 programmes), restart at B</text>
+<text x="1080.0" y="60" text-anchor="middle" font-size="13" fill="#4b5563">users</text>
+<text x="910.0" y="60" text-anchor="middle" font-size="13" fill="#4b5563">PPR Top-5 programmes</text>
+<line x1="1080.0" y1="166" x2="910.0" y2="94" stroke="#9ca3af" stroke-width="9.77" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="166" x2="910.0" y2="166" stroke="#9ca3af" stroke-width="6.27" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="166" x2="910.0" y2="238" stroke="#9ca3af" stroke-width="10.78" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="166" x2="910.0" y2="310" stroke="#9ca3af" stroke-width="8.65" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="166" x2="910.0" y2="382" stroke="#9ca3af" stroke-width="10.42" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="238" x2="910.0" y2="94" stroke="#9ca3af" stroke-width="8.47" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="238" x2="910.0" y2="166" stroke="#9ca3af" stroke-width="5.37" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="238" x2="910.0" y2="238" stroke="#9ca3af" stroke-width="9.65" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="238" x2="910.0" y2="310" stroke="#9ca3af" stroke-width="7.91" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="238" x2="910.0" y2="382" stroke="#9ca3af" stroke-width="9.44" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="310" x2="910.0" y2="238" stroke="#9ca3af" stroke-width="6.49" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="310" x2="910.0" y2="382" stroke="#9ca3af" stroke-width="3.09" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="382" x2="910.0" y2="94" stroke="#9ca3af" stroke-width="8.15" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="382" x2="910.0" y2="166" stroke="#9ca3af" stroke-width="4.40" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="382" x2="910.0" y2="238" stroke="#9ca3af" stroke-width="9.18" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="382" x2="910.0" y2="310" stroke="#9ca3af" stroke-width="6.87" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="382" x2="910.0" y2="382" stroke="#9ca3af" stroke-width="9.15" stroke-opacity="0.45"/>
+<line x1="1080.0" y1="94" x2="910.0" y2="94" stroke="#be185d" stroke-width="3.09" stroke-opacity="0.9"/>
+<text x="974.6" y="89.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#be185d" stroke="#ffffff" stroke-width="3" paint-order="stroke">2</text>
+<line x1="1080.0" y1="94" x2="910.0" y2="166" stroke="#be185d" stroke-width="3.09" stroke-opacity="0.9"/>
+<text x="974.6" y="133.6" text-anchor="middle" font-size="12" font-weight="bold" fill="#be185d" stroke="#ffffff" stroke-width="3" paint-order="stroke">2</text>
+<line x1="1080.0" y1="94" x2="910.0" y2="310" stroke="#be185d" stroke-width="2.32" stroke-opacity="0.9"/>
+<text x="974.6" y="222.9" text-anchor="middle" font-size="12" font-weight="bold" fill="#be185d" stroke="#ffffff" stroke-width="3" paint-order="stroke">1</text>
+<circle cx="1080.0" cy="94" r="17" fill="#be185d"/>
+<text x="1080.0" y="99" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">B</text>
+<text x="1102.0" y="92" text-anchor="start" font-size="12" fill="#111827">seed</text>
+<text x="1102.0" y="107" text-anchor="start" font-size="11" fill="#6b7280">PPR 0.3028</text>
+<circle cx="1080.0" cy="166" r="11" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<text x="1102.0" y="164" text-anchor="start" font-size="12" fill="#111827">other user: 484 progr.</text>
+<text x="1102.0" y="179" text-anchor="start" font-size="11" fill="#6b7280">PPR 0.0020</text>
+<circle cx="1080.0" cy="238" r="11" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<text x="1102.0" y="236" text-anchor="start" font-size="12" fill="#111827">other user: 446 progr.</text>
+<text x="1102.0" y="251" text-anchor="start" font-size="11" fill="#6b7280">PPR 0.0020</text>
+<circle cx="1080.0" cy="310" r="11" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<text x="1102.0" y="308" text-anchor="start" font-size="12" fill="#111827">other user: 71 progr.</text>
+<text x="1102.0" y="323" text-anchor="start" font-size="11" fill="#6b7280">PPR 0.0017</text>
+<circle cx="1080.0" cy="382" r="11" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<text x="1102.0" y="380" text-anchor="start" font-size="12" fill="#111827">other user: 256 progr.</text>
+<text x="1102.0" y="395" text-anchor="start" font-size="11" fill="#6b7280">PPR 0.0011</text>
+<circle cx="910.0" cy="94" r="20.0" fill="#fde68a" stroke="#16a34a" stroke-width="4"/>
+<text x="882.0" y="92" text-anchor="end" font-size="12.5" font-weight="bold" fill="#111827">#1 Сегодня. Итоги с Олегом Панютой</text>
+<text x="882.0" y="107" text-anchor="end" font-size="11" fill="#6b7280">2400508 · Инфо · PPR 0.0334</text>
+<circle cx="910.0" cy="166" r="18.5" fill="#fde68a" stroke="#374151" stroke-width="1.5"/>
+<text x="883.5" y="164" text-anchor="end" font-size="12.5" font-weight="bold" fill="#111827">#2 &#x27;Холостяк&#x27;, 10 сезон, 13 эп. По…</text>
+<text x="883.5" y="179" text-anchor="end" font-size="11" fill="#6b7280">400357 · Развлечения · PPR 0.0264</text>
+<circle cx="910.0" cy="238" r="18.1" fill="#fde68a" stroke="#374151" stroke-width="1.5"/>
+<text x="883.9" y="236" text-anchor="end" font-size="12.5" font-weight="bold" fill="#111827">#3 &#x27;ТСН. Неделя&#x27; ★</text>
+<text x="883.9" y="251" text-anchor="end" font-size="11" fill="#6b7280">2400480 · Инфо · PPR 0.0244</text>
+<circle cx="910.0" cy="310" r="16.9" fill="#fde68a" stroke="#374151" stroke-width="1.5"/>
+<text x="885.1" y="308" text-anchor="end" font-size="12.5" font-weight="bold" fill="#111827">#4 &#x27;Викна-Новости&#x27;</text>
+<text x="885.1" y="323" text-anchor="end" font-size="11" fill="#6b7280">2400467 · Инфо · PPR 0.0192</text>
+<circle cx="910.0" cy="382" r="16.3" fill="#fde68a" stroke="#16a34a" stroke-width="4"/>
+<text x="885.7" y="380" text-anchor="end" font-size="12.5" font-weight="bold" fill="#111827">#5 Факты. День ★</text>
+<text x="885.7" y="395" text-anchor="end" font-size="11" fill="#6b7280">240081 · Инфо · PPR 0.0173</text>
+<line x1="620.0" y1="44" x2="620.0" y2="400" stroke="#e5e7eb" stroke-width="1.5"/>
+<line x1="20" y1="430" x2="50" y2="430" stroke="#1d4ed8" stroke-width="4"/><line x1="54" y1="430" x2="84" y2="430" stroke="#be185d" stroke-width="4"/><text x="92" y="434" font-size="12" fill="#374151">seed user’s edges, label = full views in weeks 11–20</text>
+<line x1="400" y1="430" x2="430" y2="430" stroke="#9ca3af" stroke-width="3" stroke-opacity="0.6"/><text x="438" y="434" font-size="12" fill="#374151">other users’ edges (width = log of full views)</text>
+<circle cx="760" cy="430" r="9" fill="#fde68a" stroke="#16a34a" stroke-width="4"/><text x="776" y="434" font-size="12" fill="#374151">in the user’s actual weeks 21–30 top-5</text>
+<text x="1000" y="434" font-size="12" fill="#374151">★ = new to the user</text>
+<text x="20" y="456" font-size="11.5" fill="#6b7280">Training graph weeks 11–20; PPR α = 0.7, edge weight = full-view count; programme radius = PPR score; the 4 other users are those with the highest PPR probability from the seed (where the walk goes).</text>
+</svg>

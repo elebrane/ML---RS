@@ -726,10 +726,10 @@
   function renderSummary() {
     const el = $("panel-summary");
     if (!el) return;
-    const keys = [...METHOD_KEYS, "own", "mf_als", "ppr_js"];
+    const keys = [...METHOD_KEYS];
     const rows = keys.map((k) => {
       const m = M.byKey(k), sv = S.saved.summary[k], r = S.runs[k];
-      return `<tr>${[esc(m.title), m.isMethod ? "method" : (m.reference ? "reference impl." : "reference"),
+      return `<tr>${[esc(m.title), k === "popularity" ? "required baseline" : (m.isMethod ? "method" : "reference"),
         sv ? `<b>${fmt(sv.valid_map5_cohort_1150)}</b>` : "—", sv ? fmt(sv.valid_map5_all_4030) : "—", r ? fmt(r.map) : "—", sv ? sv.valid_padded_slots : "—", sv ? `${sv.valid_runtime_s} / ${sv.test_runtime_s}` : "—",
         sv ? `<a href="results/submissions/submission_${k}.csv">submission_${k}.csv</a>` : ""].map((c) => `<td>${c}</td>`).join("")}<td class="settings-cell"><code class="small">${esc(sv ? sv.selected_settings : "")}</code></td></tr>`;
     });

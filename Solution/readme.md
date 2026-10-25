@@ -28,6 +28,7 @@ saves the page's CSV exports. Heavy data preparation (the 5.8 M-row join) is don
 | `tools/analyze_lists.js` | list profile of every selected method on the validation cohort (familiar vs new slots, hits, distinct programmes) and per-user AP@5 → `results/analysis/` |
 | `tools/handcheck_user.js` | one user's full-view counts in weeks 11–20 and 21–30, for checking a ground-truth top-5 and an AP@5 by hand |
 | `tools/ppr_two_user_graph.js`, `tools/draw_ppr_two_user_graph.py` | report Fig. 3: 10-node PPR subgraph per example user (seed, 4 users with the highest PPR probability, PPR Top-5), mirrored → `results/analysis/ppr_two_user_graph.{json,svg,png}` |
+| `tools/history_length_check.js` | proxy check (own-history ranking) of how MAP@5 depends on the length of the training history and the target window → `results/analysis/history_length_check.txt` |
 | `tools/refit_submission.js` | refit one method with explicit settings on weeks 11–30 and write its submission (used to check which settings produced an uploaded file) |
 | `results/` | everything the code produced (CSV/JSON); `results/browser/` receives exports made from the page |
 | `tests/` | `test_lib.py` (join + MAP@5), `test_methods.js` (18 checks), `test_checkpoint.js` (MF resume) |

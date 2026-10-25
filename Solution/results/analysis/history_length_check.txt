@@ -1,0 +1,9 @@
+Own-history ranking (proxy for PPR, validation 0.3552 vs PPR 0.3595); no candidate filter.
+train 11-20 -> target 21-30 (our validation) test users 1150  MAP@5 0.3398 | all users 4030  MAP@5 0.2987 | full views per GT user 72.9
+train 16-20 (5 wk)  -> target 21-30          test users 1150  MAP@5 0.3012 | all users 4030  MAP@5 0.2628 | full views per GT user 72.9
+train 19-20 (2 wk)  -> target 21-30          test users 1150  MAP@5 0.2336 | all users 4030  MAP@5 0.2013 | full views per GT user 72.9
+train 11-20 -> target 21-25 (5 wk)           test users  775  MAP@5 0.3383 | all users 2558  MAP@5 0.3056 | full views per GT user 51.7
+train 11-20 -> target 21-23 (3 wk, thin log) test users  700  MAP@5 0.3144 | all users 2286  MAP@5 0.2890 | full views per GT user 39.6
+train 11-20 -> target 28-30 (3 wk, normal log) test users 1019  MAP@5 0.2571 | all users 3447  MAP@5 0.2344 | full views per GT user 39.4
+train 11-27 -> target 28-30 (3 wk, normal log) test users 1019  MAP@5 0.2825 | all users 3447  MAP@5 0.2587 | full views per GT user 39.4
+train 11-17 -> target 18-20 (3 wk, normal log) test users  973  MAP@5 0.3150 | all users 3233  MAP@5 0.2899 | full views per GT user 31.8

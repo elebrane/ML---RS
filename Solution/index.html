@@ -26,24 +26,20 @@
     <nav class="tabs" role="tablist" aria-label="Application sections">
       <button class="tab-button is-active" type="button" role="tab" data-tab="data" aria-selected="true">1 · Data &amp; protocol</button>
       <button class="tab-button" type="button" role="tab" data-tab="popularity" aria-selected="false">2 · Popularity baseline</button>
-      <button class="tab-button" type="button" role="tab" data-tab="content" aria-selected="false">3 · Content-based</button>
-      <button class="tab-button" type="button" role="tab" data-tab="rules" aria-selected="false">4 · Association rules</button>
-      <button class="tab-button" type="button" role="tab" data-tab="mf" aria-selected="false">5 · Matrix factorization</button>
-      <button class="tab-button" type="button" role="tab" data-tab="ppr" aria-selected="false">6 · Personalized PageRank</button>
-      <button class="tab-button" type="button" role="tab" data-tab="summary" aria-selected="false">7 · Summary</button>
+      <button class="tab-button" type="button" role="tab" data-tab="mf" aria-selected="false">3 · Matrix factorization</button>
+      <button class="tab-button" type="button" role="tab" data-tab="ppr" aria-selected="false">4 · Personalized PageRank</button>
+      <button class="tab-button" type="button" role="tab" data-tab="summary" aria-selected="false">5 · Summary</button>
     </nav>
 
     <section id="panel-data" class="tab-panel" role="tabpanel"></section>
     <section id="panel-popularity" class="tab-panel" role="tabpanel" hidden></section>
-    <section id="panel-content" class="tab-panel" role="tabpanel" hidden></section>
-    <section id="panel-rules" class="tab-panel" role="tabpanel" hidden></section>
     <section id="panel-mf" class="tab-panel" role="tabpanel" hidden></section>
     <section id="panel-ppr" class="tab-panel" role="tabpanel" hidden></section>
     <section id="panel-summary" class="tab-panel" role="tabpanel" hidden></section>
   </main>
 
   <footer class="site-footer">
-    <p>Data: Kaggle community competition “sweet.tv — TV program recommender” (dataset11-30.csv, export_arh_*.csv). Methods follow course weeks 2, 4, 5 and 6.</p>
+    <p>Data: Kaggle community competition “sweet.tv — TV program recommender” (dataset11-30.csv, export_arh_*.csv). Methods follow course weeks 5 (matrix factorization) and 6 (Personalized PageRank).</p>
     <p>Run <code>python3 server.py</code> in this folder and open <code>http://127.0.0.1:8000/</code> so saved results load and exports can be written to <code>results/browser/</code>.</p>
   </footer>
 

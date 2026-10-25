@@ -1,8 +1,9 @@
 /**
  * app.js — page wiring for the sweet.tv exam application (no framework).
  *
- * Tabs: 1 Data & protocol · 2 Popularity · 3 Content-based · 4 Association rules · 5 MF (TF.js) ·
- * 6 PPR (TF.js) · 7 Summary. Every method tab is laid out as numbered steps: what the method takes
+ * Tabs: 1 Data & protocol · 2 Popularity · 3 MF (TF.js) · 4 PPR (TF.js) · 5 Summary.
+ * (Content-based filtering and association rules stay in js/content.js and js/rules.js as secondary methods; their
+ * results are in results/summary.csv, they are not shown on the page.) Every method tab is laid out as numbered steps: what the method takes
  * and from where → settings → run on validation → the two fixed example users → validation sweep →
  * refit for the test weeks → export. The page calls exactly the functions tools/run_experiments.js
  * calls, so a browser run reproduces the saved batch results in results/ (the "Saved batch run" blocks).
@@ -17,7 +18,7 @@
   const yieldUI = () => new Promise((r) => setTimeout(r, 0));
   const S = { runs: {}, sweeps: {}, examples: {}, tests: {}, saved: { summary: {}, examples: {}, sweeps: {} }, checks: null, tfReady: false,
     models: {}, savedExamples: {}, exChoice: "default: P90 / P10 of training full views", exLists: null };
-  const METHOD_KEYS = ["popularity", "content", "rules", "mf", "ppr"];
+  const METHOD_KEYS = ["popularity", "mf", "ppr"];
 
   // ------------------------------------------------------------------ helpers
   function setStatus(msg, cls = "") { const el = $("status"); el.textContent = msg; el.className = "status " + cls; }
@@ -72,7 +73,7 @@
         (built by <code>tools/build_interactions.py</code> from <code>dataset11-30.csv</code> joined to <code>export_arh_11-20-final.csv</code> on channel + interval overlap).
         <b>Candidates:</b> labelled programmes that air in weeks 21–30 (<code>export_arh_21-30-final.csv</code>, schedule only).</p>
         <p><b>Score → five ids:</b> one popularity count per programme; every user gets the same five highest counts (ties by programme id).
-        This is the required reference, not one of the four methods, and its validation-selected setting is the shared fallback of every method.</p>`,
+        This is the required reference, not one of the methods, and its validation-selected setting is the shared fallback of every method.</p>`,
       controls: [sel("count", "Count", ["views", "viewers"], "views = total full views; viewers = distinct users with a full view"), sel("recentWeeks", "Training weeks used", ["0", "2", "4"], "0 = all ten weeks; W = only the last W weeks", true)],
     },
     content: {

@@ -12,11 +12,11 @@ saves the page's CSV exports. Heavy data preparation (the 5.8 M-row join) is don
 
 | Path | Role |
 |---|---|
-| `index.html`, `style.css`, `js/app.js` | the application: tabs 1 Data & protocol · 2 Popularity · 3 Content-based · 4 Association rules · 5 MF · 6 PPR · 7 Summary |
+| `index.html`, `style.css`, `js/app.js` | the application: tabs 1 Data & protocol · 2 Popularity · 3 MF · 4 PPR · 5 Summary |
 | `js/core.js` | shared protocol: contexts, candidate pool, fallback, Top-5, MAP@5, CSV |
 | `js/popularity.js` | required popularity baseline (+ “own history” reference) |
-| `js/content.js` | method 1 — content-based filtering (week 2: item vectors, cosine, profile) |
-| `js/rules.js` | method 2 — association rules (week 4: Apriori, support / confidence / lift) |
+| `js/content.js` | secondary method — content-based filtering (week 2: item vectors, cosine, profile); evaluated by the batch runner, not shown on the page |
+| `js/rules.js` | secondary method — association rules (week 4: Apriori, support / confidence / lift); evaluated by the batch runner, not shown on the page |
 | `js/mf_tf.js` | method 3 — implicit matrix factorization in TensorFlow.js (week 5: embeddings, Adam; HW5 controls epochs, learning rate, L2, batch size) |
 | `js/ppr_tf.js` | method 4 — Personalized PageRank in TensorFlow.js (week 6: two-block propagation) |
 | `js/graphview.js`, `vendor/d3.min.js` | PPR tab, “Graph view for two users”: week-6 display (d3 7.9.0, two-column bipartite layout, colour by kind/degree or score, tooltip, node cap) for two chosen users, edge width = edge weight |

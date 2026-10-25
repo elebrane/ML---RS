@@ -5,7 +5,7 @@ Individual exam solution by Vladislav Kutranov. Kaggle community competition “
 - **Report:** [`Report/vladislav_kutranov_exam_report.pdf`](Report/vladislav_kutranov_exam_report.pdf).
 - **Live application:** https://elebrane.github.io/ML---RS/ (GitHub Pages; everything is computed in the visitor's browser).
 - **Application (interface with the solution):** `Solution/index.html` — open it on GitHub Pages (this repository's Pages site opens it
-  directly) or locally with `python3 Solution/server.py`. Tabs: data & protocol, popularity baseline, content-based, association rules,
+  directly) or locally with `python3 Solution/server.py`. Tabs: data & protocol, popularity baseline,
   matrix factorization (TensorFlow.js), Personalized PageRank (TensorFlow.js), summary. Every method tab ends with a step-by-step
   rebuild of its Kaggle submission file. On a static host the page's exports are offered as downloads.
 - **Final submission file:** [`submission_ppr.csv`](submission_ppr.csv) — Personalized PageRank (α 0.7, edge weight = number of full views),
